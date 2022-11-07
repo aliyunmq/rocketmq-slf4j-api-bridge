@@ -34,7 +34,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <slf4j-api.version>2.0.3</slf4j-api.version>
-        <rocketmq-slf4j-api.version>1.0-SNAPSHOT</rocketmq-slf4j-api.version>
+        <rocketmq-slf4j-api.version>1.0.0-SNAPSHOT</rocketmq-slf4j-api.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
         <maven-shade-plugin.version>3.2.4</maven-shade-plugin.version>
@@ -42,6 +42,12 @@
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
     </properties>
 
+    <developers>
+        <developer>
+            <name>Aaron Ai</name>
+            <email>yangkun.ayk@gmail.com</email>
+        </developer>
+    </developers>
 
     <dependencies>
         <dependency>
