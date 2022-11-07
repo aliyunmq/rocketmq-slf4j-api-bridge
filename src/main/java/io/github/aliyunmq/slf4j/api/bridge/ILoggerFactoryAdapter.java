@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package io.github.aliyunmq.logback.bridge;
+package io.github.aliyunmq.slf4j.api.bridge;
 
 public final class ILoggerFactoryAdapter implements org.apache.rocketmq.shaded.org.slf4j.ILoggerFactory {
     private final org.slf4j.ILoggerFactory delegate;

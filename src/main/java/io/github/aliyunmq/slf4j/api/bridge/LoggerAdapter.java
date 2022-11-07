@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package io.github.aliyunmq.logback.bridge;
+package io.github.aliyunmq.slf4j.api.bridge;
 
 import org.apache.rocketmq.shaded.org.slf4j.Logger;
 import org.apache.rocketmq.shaded.org.slf4j.Marker;

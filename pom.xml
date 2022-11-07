@@ -20,11 +20,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.aliyunmq</groupId>
-    <artifactId>logback-bridge</artifactId>
+    <artifactId>rocketmq-slf4j-api-bridge</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>logback-bridge</name>
+    <name>rocketmq-slf4j-api-bridge</name>
 
     <properties>
         <!-- Make it compatible with Java8 -->
@@ -69,8 +69,8 @@
     </distributionManagement>
 
     <scm>
-        <url>git@github.com:aliyun-mq/rocketmq-logback-bridge.git</url>
-        <connection>scm:git:git@github.com:aliyun-mq/rocketmq-logback-bridge.git</connection>
-        <developerConnection>scm:git:git@github.com:aliyun-mq/rocketmq-logback-bridge.git</developerConnection>
+        <url>git@github.com:aliyun-mq/rocketmq-slf4j-api-bridge.git</url>
+        <connection>scm:git:git@github.com:aliyun-mq/rocketmq-slf4j-api-bridge.git</connection>
+        <developerConnection>scm:git:git@github.com:aliyun-mq/rocketmq-slf4j-api-bridge.git</developerConnection>
     </scm>
 </project>
