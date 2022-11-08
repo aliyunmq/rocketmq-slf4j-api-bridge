@@ -9,7 +9,19 @@ This project bridges the SLF4j API revealed in [rocketmq-logging](https://github
 
 ## Requirements
 
-- JDK 1.8 or later
+- Java 1.8 or later
+
+## Manual Release
+
+Set the password in your `settings.xml` for repositories: `sonatype-nexus-snapshots-aliyun-mq`
+and `sonatype-nexus-staging-aliyun-mq`, then execute the command below:
+
+```bash
+mvn clean install -Prelease
+```
+
+Sign in [nexus repository manager](https://s01.oss.sonatype.org/#stagingRepositories) and check the artifact, and
+determine to release/drop it.
 
 ## License
 
