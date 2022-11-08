@@ -18,7 +18,7 @@
 package io.github.aliyunmq.slf4j.api.bridge;
 
 import java.util.Iterator;
-import org.apache.rocketmq.shaded.org.slf4j.Marker;
+import org.apache.rocketmq.shade.org.slf4j.Marker;
 
 public final class MarkerAdapter implements Marker {
     final org.slf4j.Marker delegate;

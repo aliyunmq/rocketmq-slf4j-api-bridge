@@ -17,7 +17,7 @@
 
 package io.github.aliyunmq.slf4j.api.bridge;
 
-public final class ILoggerFactoryAdapter implements org.apache.rocketmq.shaded.org.slf4j.ILoggerFactory {
+public final class ILoggerFactoryAdapter implements org.apache.rocketmq.shade.org.slf4j.ILoggerFactory {
     private final org.slf4j.ILoggerFactory delegate;
 
     public ILoggerFactoryAdapter(org.slf4j.ILoggerFactory delegate) {
@@ -25,7 +25,7 @@ public final class ILoggerFactoryAdapter implements org.apache.rocketmq.shaded.o
     }
 
     @Override
-    public org.apache.rocketmq.shaded.org.slf4j.Logger getLogger(String name) {
+    public org.apache.rocketmq.shade.org.slf4j.Logger getLogger(String name) {
         return new LoggerAdapter(delegate.getLogger(name));
     }
 }

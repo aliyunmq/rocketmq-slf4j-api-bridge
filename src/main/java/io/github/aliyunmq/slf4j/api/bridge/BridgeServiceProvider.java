@@ -18,10 +18,10 @@
 package io.github.aliyunmq.slf4j.api.bridge;
 
 import java.lang.reflect.Method;
-import org.apache.rocketmq.shaded.org.slf4j.ILoggerFactory;
-import org.apache.rocketmq.shaded.org.slf4j.IMarkerFactory;
-import org.apache.rocketmq.shaded.org.slf4j.spi.MDCAdapter;
-import org.apache.rocketmq.shaded.org.slf4j.spi.SLF4JServiceProvider;
+import org.apache.rocketmq.shade.org.slf4j.ILoggerFactory;
+import org.apache.rocketmq.shade.org.slf4j.IMarkerFactory;
+import org.apache.rocketmq.shade.org.slf4j.spi.MDCAdapter;
+import org.apache.rocketmq.shade.org.slf4j.spi.SLF4JServiceProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

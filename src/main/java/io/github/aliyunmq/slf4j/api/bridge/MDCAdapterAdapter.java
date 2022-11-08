@@ -19,7 +19,7 @@ package io.github.aliyunmq.slf4j.api.bridge;
 
 import java.util.Deque;
 import java.util.Map;
-import org.apache.rocketmq.shaded.org.slf4j.spi.MDCAdapter;
+import org.apache.rocketmq.shade.org.slf4j.spi.MDCAdapter;
 
 public final class MDCAdapterAdapter implements MDCAdapter {
     private final org.slf4j.spi.MDCAdapter delegate;

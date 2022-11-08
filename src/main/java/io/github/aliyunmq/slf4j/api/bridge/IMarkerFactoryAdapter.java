@@ -17,8 +17,8 @@
 
 package io.github.aliyunmq.slf4j.api.bridge;
 
-import org.apache.rocketmq.shaded.org.slf4j.IMarkerFactory;
-import org.apache.rocketmq.shaded.org.slf4j.Marker;
+import org.apache.rocketmq.shade.org.slf4j.IMarkerFactory;
+import org.apache.rocketmq.shade.org.slf4j.Marker;
 
 public final class IMarkerFactoryAdapter implements IMarkerFactory {
     private final org.slf4j.IMarkerFactory delegate;
