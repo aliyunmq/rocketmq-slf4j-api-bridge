@@ -1,4 +1,4 @@
-# Bridge for RocketMQ SLF4j API
+# Bridge for SLF4j API of Apache RocketMQ
 
 [![License][license-image]][license-url]
 [![build][build-image]][build-url]
