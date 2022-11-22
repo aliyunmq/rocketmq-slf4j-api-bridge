@@ -21,7 +21,7 @@
 
     <groupId>io.github.aliyunmq</groupId>
     <artifactId>rocketmq-slf4j-api-bridge</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>rocketmq-slf4j-api-bridge</name>
