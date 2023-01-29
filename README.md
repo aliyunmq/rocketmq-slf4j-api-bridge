@@ -54,6 +54,7 @@ Sign in [nexus repository manager](https://s01.oss.sonatype.org/#stagingReposito
 ## Related Projects
 
 * [rocketmq-logging](https://github.com/aliyunmq/rocketmq-logging): Logging for Apache RocketMQ.
+* [rocketmq-shaded-slf4j-api-bridge](https://github.com/aliyunmq/rocketmq-shaded-slf4j-api-bridge): Bridge for Shaded SLF4J API of Apache RocketMQ.
 
 ## License
 
